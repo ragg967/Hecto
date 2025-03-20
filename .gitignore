@@ -1,1 +1,35 @@
+# Ignore the target directory where Cargo builds your project
 /target
+
+# Ignore compiled libraries
+*.rlib
+
+# Ignore Cargo.lock if you're building a library
+Cargo.lock
+
+# Ignore any other build artifacts
+*.o
+*.so
+*.dylib
+*.dll
+
+# Ignore backup files created by editors
+*~
+*.swp
+*.swo
+*.bak
+
+# Ignore directories created by common IDEs and editors
+.idea
+.vscode
+*.iml
+
+# Ignore Rust documentation artifacts
+/target/doc
+
+# Ignore Rust toolchain files
+rust-toolchain.toml
+
+# Ignore other unnecessary files and directories
+.DS_Store
+Thumbs.db
